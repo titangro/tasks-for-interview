@@ -6,6 +6,7 @@ import { UnderlinedCell } from './underlined-cell';
 import { pile } from './pile';
 import { RTextCell } from './r-text-cell';
 import { StretchCell } from './stretch-cell';
+import { Seq, logFive, ArraySeq, RangeSeq } from './seq';
 
 console.log('OBJECTS FILE OPEN ---->');
 
@@ -94,3 +95,7 @@ const sc = new StretchCell(new TextCell('abc'), 1, 2);
 console.log(sc.minWidth());
 console.log(sc.minHeight());
 console.log(sc.draw(3, 2));
+
+logFive(new Seq(1, 5));
+logFive(new ArraySeq([1, 21, 3, 343, 5, 1, 23]));
+logFive(new RangeSeq(100, 1000));

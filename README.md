@@ -2,7 +2,7 @@
 
 ## install
 
-https://karmazzin.gitbook.io/eloquentjavascript_ru/
+https://karmazzin.gitbook.io/eloquentjavascript_ru/ (Выразительный Javascript)
 
 ### 1. start command - npm install
 
